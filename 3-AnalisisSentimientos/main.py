@@ -73,7 +73,6 @@ with open(archivo_salida, 'w', encoding='utf-8') as salida:
         contenido_decodificado = unidecode(contenido_decodificado)
 
         # Contar cuántas palabras positivas y negativas hay en el tweet
-        
 
     # Agregar conteo de sentimientos al final del archivo
     salida.write(f"Total de tweets con Sentimiento Positivo: {positivos}\n")
