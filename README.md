@@ -32,34 +32,35 @@ git clone [URL del repositorio]
 # Navega al directorio del proyecto
 cd [nombre del directorio]
 
-# Instala las dependencias
-pip install -r requirements.txt
+# Instala dependencias
+pip install [dependencia requerida]
 ```
 
 ## Pasos
 
-### 1. Recopilación de Datos
+1. Recopilación de Datos
 
-### 2. Preprocesamiento  
+2. Preprocesamiento  
 
-### 3. Análisis de Sentimientos
+3. Análisis de Sentimientos
 
-### 4. Idenitificación de Temas de Interés
+4. Idenitificación de Temas de Interés
 
-### 5. Búsqueda de Pares Contradictorios
+5. Búsqueda de Pares Contradictorios
 
-### 6. Frontend
+6. Frontend
 
-### 7. Reflexión
+7. Reflexión
 
 ## Uso
 
-1. Configura tus credenciales de la API de Twitter en config.py.
-2. Ejecuta el script principal:
+1. Configura tus credenciales de la API de Twitter en el directorio de infoGeneral
+2. Sigue el paso a paso para hacer scraping de Twitter dependiendo de lo que quieras
+3. Es importante seguir la secuencia de extracción -> depuración -> análisis, ejecutando cada script de la siguiente forma:
 ```
 python main.py
 ```
-3. Sigue las instrucciones en pantalla para obtener los resultados.
+4. En el caso de este proyecto, si quieres ver los resultados puedes ir a este [enlace](https://i0.wp.com/magis.iteso.mx/wp-content/uploads/2021/11/MAGIS-484-ERGOSUM-CARRUSEL.jpg?fit=1000%2C1002&ssl=1).
 
 ## Contribución
 
