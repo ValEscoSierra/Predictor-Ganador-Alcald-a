@@ -38,27 +38,27 @@ pip install [dependencia requerida]
 
 ## Pasos
 
-1. Recopilación de Datos
+1. Recopilación de Datos:
 La recopilación de datos en este proyecto se realizó utilizando una herramienta de web scraping para extraer tweets de diferentes candidatos a la alcaldía de Bogotá en las elecciones de este año. Los candidatos seleccionados para obtener información de la aplicación Twitter fueron los siguientes: Carlos Fernando Galán, Gustavo Bolívar, Juan Daniel Oviedo y Diego Molano. Se recopiló un conjunto de tweets de estos candidatos para su posterior análisis.
 
 Los datos fueron recopilados utilizando el repositorio twscrape (https://github.com/vladkens/twscrape), el cual está protegido por sus respectivos derechos de autor y políticas de uso. Agradecemos a los creadores del repositorio por proporcionar la fuente de datos para este proyecto.
 
-2. Preprocesamiento
+2. Preprocesamiento:
 En la etapa de preprocesamiento, se llevó a cabo una limpieza exhaustiva de la información recopilada. Los tweets suelen contener etiquetas, datos irrelevantes y ruido que no son útiles para el siguiente paso, que es el análisis de sentimientos. El objetivo principal fue asegurarse de que los datos estuvieran en un formato adecuado y libres de elementos innecesarios.
 
-3. Análisis de Sentimientos
+3. Análisis de Sentimientos:
 El análisis de sentimientos desempeña un papel fundamental en este proyecto. Dado que el lenguaje español es muy amplio y depende en gran medida del contexto de las oraciones, las bibliotecas estándar disponibles en Internet para el análisis de sentimientos no eran las más convenientes. Por lo tanto, se crearon carpetas de palabras clave personalizadas que contienen términos positivos, negativos y neutrales. Este enfoque permitió entrenar un algoritmo específico para el contexto colombiano y el lenguaje español, incluyendo la jerga colombiana, lo que resultó en un análisis más competente y confiable.
 
-4. Identificación de Temas de Interés
+4. Identificación de Temas de Interés:
 Después de realizar el análisis de sentimientos, se implementó un algoritmo capaz de reconocer los temas o "topics" relevantes dentro de los tweets depurados. Esto permitió identificar las principales áreas de interés en los mensajes de los candidatos. Los temas más recurrentes y relevantes se clasificaron y se utilizaron para categorizar todos los tweets de los candidatos, determinando en qué tema específico se encuentran.
 
-5. Búsqueda de Pares Contradictorios
+5. Búsqueda de Pares Contradictorios:
 Esta etapa del proyecto tiene como objetivo encontrar pares de tweets contradictorios dentro de los datos procesados. Basándose en los pasos anteriores, se analizaron las opiniones y actitudes expresadas en los tweets para identificar aquellos que presentan contrastes significativos. Esta información puede ser valiosa para comprender mejor la dinámica de la opinión pública en relación con los candidatos y los temas clave.
 
-6. Frontend
+6. Frontend:
 El frontend de este proyecto se centra en la creación de una interfaz de usuario que permitirá a los usuarios visualizar los tweets contradictorios identificados previamente, organizados por tema. Esta interfaz proporcionará una forma efectiva de explorar y comprender las opiniones contradictorias en el contexto político de las elecciones a la alcaldía de Bogotá. 
 
-8. Reflexión
+8. Reflexión:
 La utilidad de este sistema en un contexto político radica en su capacidad para proporcionar una visión clara y accesible de las opiniones contradictorias entre la ciudadanía con respecto a los candidatos y temas políticos relevantes en las elecciones a la alcaldía de Bogotá. Esto puede ser valioso para diversos actores, incluyendo a los votantes, los candidatos y los analistas políticos. 
 
 ## Uso
