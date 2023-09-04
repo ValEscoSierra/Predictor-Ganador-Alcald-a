@@ -9,6 +9,7 @@ Este proyecto utiliza técnicas de web scraping en Twitter y análisis de datos 
 
 - [Descripción](#descripción)
 - [Instalación](#instalación)
+- [Pasos de Desarrollo](#pasos)
 - [Uso](#uso)
 - [Contribución](#contribución)
 - [Licencia](#licencia)
@@ -35,6 +36,22 @@ cd [nombre del directorio]
 pip install -r requirements.txt
 ```
 
+## Pasos
+
+### 1. Recopilación de Datos
+
+### 2. Preprocesamiento  
+
+### 3. Análisis de Sentimientos
+
+### 4. Idenitificación de Temas de Interés
+
+### 5. Búsqueda de Pares Contradictorios
+
+### 6. Frontend
+
+### 7. Reflexión
+
 ## Uso
 
 1. Configura tus credenciales de la API de Twitter en config.py.
@@ -55,10 +72,12 @@ Si deseas contribuir al proyecto, por favor, sigue las siguientes pautas:
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-## Contacto
+## Desarrolladores
 
-Si tienes preguntas o sugerencias, no dudes en contactarme:
+Si tienes preguntas o sugerencias, no dudes en contactarnos:
 
-- **Nombre**: [Tu nombre]
-- **Email**: [Tu email]
-- **Twitter**: [@tu_usuario]
+- Valentina Sierra Escobar
+- Samir Alejandro Sánchez Romero
+- Paula Andrea Peñuela Barrera
+- William Daniel Martínez Oviedo
+- Diego Alejandro Pardo Montero
